@@ -22,7 +22,7 @@ public class Client {
         Operation subOperation = factory.createOperation();
         System.out.println("减法：" + subOperation.getResult(a, b));
 
-        factory  = new SubFactory();
+        factory  = new MulFactory();
         Operation mulOperation = factory.createOperation();
         System.out.println("乘法：" + mulOperation.getResult(a, b));
 
